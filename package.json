@@ -1,9 +1,10 @@
 {
   "private": true,
+  "type": "module",
   "name": "eleventy-markdown-directives",
   "version": "0.0.0",
   "scripts": {
-    "start": "eleventy"
+    "start": "eleventy --config='.eleventy.config.cjs'"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
